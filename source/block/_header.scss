@@ -1,0 +1,25 @@
+.header {
+    padding-top: 30px;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 2px solid $primaryColor;
+
+        a {
+            color: $primaryColor;
+            padding-bottom: 30px;
+            font-size: 18px;
+            line-height: 22px;
+            transition: all .3s;
+        }
+
+    }
+
+    &__list a:hover {
+        transform: scale(1.2);
+    }
+
+
+}

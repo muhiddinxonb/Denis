@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    // font-family: "Francois One", sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@import'base/media';
+
+@import'base/mixin';
+@import'base/variables';
+
+
+@import'block/header';
+@import'block/about';
+@import'block/skills';
+@import'block/denis';
+@import'block/portfolio';
+@import'block/contacts';
+
+
+
+@import'block/title';
+@import'block/btn';
