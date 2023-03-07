@@ -79,7 +79,6 @@ a {
 .skills__inner {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
 }
 .skills__item {
   padding: 80px 0;
@@ -201,6 +200,9 @@ a {
 @media (max-width: 991px) {
   .container {
     max-width: 767px;
+  }
+  .skills__inner {
+    flex-direction: column;
   }
   .denis__img img {
     max-width: 800px;

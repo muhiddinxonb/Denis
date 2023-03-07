@@ -3,6 +3,12 @@
         max-width: 767px;
     }
 
+    .skills {
+        &__inner {
+            flex-direction: column;
+        }
+    }
+
     .denis {
         &__img {
             img {
@@ -21,7 +27,6 @@
     }
 }
 
-@media(max-width:767px) {}
 
 
 
@@ -90,10 +95,11 @@
 
     .denis {
 
-        &__inner{
+        &__inner {
             display: flex;
             gap: 40px;
         }
+
         &__img {
             img {
                 max-width: 350px;

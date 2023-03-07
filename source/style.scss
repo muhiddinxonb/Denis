@@ -1,4 +1,8 @@
-* {
+ 
+ 
+ 
+ 
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +12,9 @@ body {
     font-family: 'Tilt Neon', cursive;
     overflow-x: hidden;
 }
+
+
+
 
 li {
     list-style: none;
@@ -46,5 +53,8 @@ a {
 @import'block/btn';
 
 @import'base/media';
+
+
+
 
 
