@@ -1,27 +1,37 @@
-.skills{
+.skills {
 
-    &__info{
+    &__info {
         text-align: center;
-        p{
+
+        p {
             padding-top: 30px;
         }
     }
 
     padding-top: 100px;
-    &__inner{
+
+    &__inner {
         display: flex;
         justify-content: space-around;
+        // flex-wrap: wrap;
+        flex-direction: column;
     }
 
-    &__item{
+    &__item {
         padding: 80px 0;
         text-align: center;
-        p{
+
+        p {
             padding-top: 20px;
         }
 
-        img{
+        img {
             padding-top: 10px;
+            transition: all .3s;
         }
     }
+}
+
+.skills__item img:hover {
+    transform: scale(1.1);
 }

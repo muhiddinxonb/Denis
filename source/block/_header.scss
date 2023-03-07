@@ -1,6 +1,8 @@
 .header {
     padding-top: 30px;
 
+
+
     &__list {
         display: flex;
         justify-content: space-around;
@@ -17,9 +19,15 @@
 
     }
 
+    &__menu{
+        display: none;
+    }
+
     &__list a:hover {
         transform: scale(1.2);
     }
-
-
+    #burger{
+        display: none;
+        text-align:right;
+    }
 }

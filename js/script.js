@@ -8,3 +8,11 @@ document.querySelectorAll('.portfolio__item img').forEach(image => {
         document.querySelector('.active').style.display = 'none';
     }
 })
+
+const burger = document.querySelector('#burger');
+const wapper = document.querySelector('.header__list');
+
+
+burger.addEventListener('click', () => {
+    wapper.classList.toggle('active');
+})

@@ -5,8 +5,8 @@
 }
 
 body {
-    // font-family: "Francois One", sans-serif;
     font-family: 'Tilt Neon', cursive;
+    overflow-x: hidden;
 }
 
 li {
@@ -18,12 +18,16 @@ a {
     display: inline-block;
 }
 
+
+.active{
+    display: block;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-@import'base/media';
 
 @import'base/mixin';
 @import'base/variables';
@@ -40,3 +44,7 @@ a {
 
 @import'block/title';
 @import'block/btn';
+
+@import'base/media';
+
+
